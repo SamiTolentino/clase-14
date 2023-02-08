@@ -1,0 +1,25 @@
+.main-index h2 {
+    background-color: $verde-lima;
+    @extend .texto-centrado;
+}
+
+.main-index{
+    @extend .flex-column;
+    @extend .fondo-verde;
+}
+
+.texto-centrado {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fondo-verde{
+    background-color: $verde-lima;
+}

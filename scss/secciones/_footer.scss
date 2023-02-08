@@ -1,0 +1,24 @@
+
+
+@mixin fondo-color($fondo){
+    background-color: $fondo;
+    color: black;
+    text-align: center;
+
+}
+
+.parrafo-2{
+    @include fondo-color($coral);
+}
+
+.parrafo-3{
+    @include fondo-color($verde-lima);
+}
+
+.parrafo-4{
+    @include fondo-color($amarillo);
+}
+
+.parrafo-5{
+    @include fondo-color($rojizo);
+}

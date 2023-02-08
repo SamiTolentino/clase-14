@@ -1,0 +1,14 @@
+/*LAS VARIABLES VAN ARRIBA DE TODO*/
+@import "./utilidades/colors";
+
+@import "./utilidades/reset";
+
+/*Secciones*/
+@import "./secciones/header";
+@import "./secciones/main-index";
+@import "./secciones/footer";
+
+h1{
+    color: $rojizo;
+    background-color: $verde-fuerte;
+}

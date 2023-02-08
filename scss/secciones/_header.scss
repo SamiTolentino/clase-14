@@ -1,0 +1,17 @@
+h1 {
+    height: (100vh) - (75vh)
+}
+
+$nocturno: 1;
+
+@if($nocturno ==1) {
+    h1 {
+        color: black;
+    }
+}
+
+@else {
+    h1 {
+        color: $verde-fuerte;
+    }
+}

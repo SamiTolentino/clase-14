@@ -1,0 +1,52 @@
+/*LAS VARIABLES VAN ARRIBA DE TODO*/
+/*Variables globales*/
+* {
+  margin: 0;
+  padding: 0; }
+
+/*Secciones*/
+h1 {
+  height: 25vh; }
+
+h1 {
+  color: black; }
+
+.main-index h2 {
+  background-color: #AAF683; }
+
+.texto-centrado, .main-index h2 {
+  text-align: center;
+  padding: 2rem 0; }
+
+.flex-column, .main-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.fondo-verde, .main-index {
+  background-color: #AAF683; }
+
+.parrafo-2 {
+  background-color: #FF9B85;
+  color: black;
+  text-align: center; }
+
+.parrafo-3 {
+  background-color: #AAF683;
+  color: black;
+  text-align: center; }
+
+.parrafo-4 {
+  background-color: #FFD97D;
+  color: black;
+  text-align: center; }
+
+.parrafo-5 {
+  background-color: #EE6055;
+  color: black;
+  text-align: center; }
+
+h1 {
+  color: #EE6055;
+  background-color: #60D394; }
